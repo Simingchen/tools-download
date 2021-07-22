@@ -1,4 +1,5 @@
 
+https://github.com/xiangyuecn/Recorder/blob/master/assets/demo-vue/component/recorder.vue
 <!DOCTYPE HTML>
 <html>
 <head>
