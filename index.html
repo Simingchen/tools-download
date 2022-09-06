@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <script src="./siriwave.umd.js"></script>
+</head>
+
+<body style="background-color: black;">
+    <div class="container">
+        <div id="siri-modern"><canvas width="320" height="120" style="width: 400px; height: 150px;"></canvas></div>
+        <div id="siri-classic"><canvas width="320" height="120" style="width: 400px; height: 150px;"></canvas></div>
+    </div>
+    <script>
+        var classic = new SiriWave({ container: document.getElementById("siri-classic"), width: 400, height: 150, });
+        var modern = new SiriWave({ container: document.getElementById("siri-modern"), width: 400, height: 150, style: 'ios9' });
+    </script>
+</body>
+
+</html>
